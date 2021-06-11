@@ -12,8 +12,8 @@ jobs:
       - name: Hello world action step
         uses: ./ # Uses an action in the root directory
         id: hell
-        with:
-          who-to-greet: 'hirota'
+      #  with:
+      #    who-to-greet: 'hirota'
       # 「hello」ステップの出力を使用する
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
