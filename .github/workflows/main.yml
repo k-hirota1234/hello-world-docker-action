@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Hello world action step
         uses: ./ # Uses an action in the root directory
-        id: hello
+        id: hell
         with:
           who-to-greet: 'hirota'
       # 「hello」ステップの出力を使用する
